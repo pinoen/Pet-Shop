@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tiro+Telugu:ital@1&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.fondo{
+  background-image: url(img/foto-header.png);
+  width: 1350px;
+  height: 700px;
+}
+header{
+  background-color: #F0A83E;
+}
+
+#ofertas ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  background-color: #222222;
+  color: white;
+
+}
+
+#idioma ul{
+  display: flex;
+  gap:  20px;
+  justify-content: right;
+  list-style-type: none;
+  background-color: #222222;
+  color: white;
+  font-size: 20px;
+
+}
+
+.navegar ul{
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  align-items: center;
+  list-style-type: none;
+  font-size: 20px;
+
+}
+
+.navegar ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+main{
+  margin: 40px auto;
+  text-align: center;
+}
+
+button{
+  margin: 20px auto;
+}
+
+footer{
+  text-align: center;
+}
+
+.contacto{
+  font-size: 30px;
+  color: aliceblue;
+  background-color: #3C2313;
+}
